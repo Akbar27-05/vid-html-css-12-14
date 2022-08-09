@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .col-1{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+.col-2{
+    background: red;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+
+.row{
+    background-color: pink;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    /* flex-direction: row-reverse; dimulai Dari kanan content */
+    /* flex-direction: row; normal */
+    /* flex-direction: column-reverse; dari urutan atas bawah tertinngi ke terendah */
+
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow: column; dri urutan atas bawah terkecil -> trbesar */
+
+    /* justify-content: center; */
+    /* justify-content: flex-start; dri kiri cntent 1 ke 4  */
+    /* justify-content: flex-end; dri kanan content 4 ke 1 */
+    /* justify-content: space-around; memberikan jarak dri bebrpa element dan jarak pada ujung kanan kiri */
+    /* justify-content: space-between; memberikan jarak antr elmnt dari ujung hingga ujung */
+}
+
+.col{
+    width: 150px;
+    height: 150px;
+}
+
+.satu{
+    background-color: yellow;
+}
+
+.dua{
+    background-color: green;
+}
+
+.tiga{
+    background-color: aqua;
+}
+
+.empat{
+    background-color: tomato;
+}
